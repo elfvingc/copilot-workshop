@@ -4,13 +4,14 @@ Welcome to the Code Copilot Workshop! This repository contains a series of exerc
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Setup](#setup)
-- [Workshop Structure](#workshop-structure)
-- [Exercises](#exercises)
-- [Contributing](#contributing)
-- [License](#license)
+- [Code Copilot Workshop](#code-copilot-workshop)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Workshop Structure](#workshop-structure)
+    - [Modules](#modules)
+  - [Exercises](#exercises)
 
 ## Introduction
 
@@ -66,10 +67,10 @@ The workshop is divided into modules, each focusing on different aspects and cap
 ### Modules
 
 - **Module 1: Code explanation** - Get familiar with using Chat and Explain.
-- **Module 2: Add more functionality** - Get started with autocomplete, Command, and Chat.
-- **Module 3: Generate docs** - Create function documentation using copilot.
-- **Module 4: Generate tests** - Create tests using copilot.
-- **Module 5: Code Refactoring** - Improve and optimize existing code with copilot.
+- **Module 2: Generate docs** - Create function documentation using copilot.
+- **Module 3: Generate tests** - Create tests using copilot.
+- **Module 4: Code Refactoring** - Improve and optimize existing code with copilot.
+- **Module 5: Add more functionality** - Get started with autocomplete, Command, and Chat.
 - **Module 6: Debugging Assistance** - Use copilot to help find and fix bugs.
 
 ## Exercises
