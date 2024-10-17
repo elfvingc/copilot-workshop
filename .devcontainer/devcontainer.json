@@ -1,0 +1,12 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  
+  "forwardPorts": [5000, 6000, 7000, 8000],  // replace with appropriate ports your game uses
+  "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [],
+
+}
