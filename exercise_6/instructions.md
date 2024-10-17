@@ -20,4 +20,4 @@ The suggested workflow is described in detail below.
 
 2. **Verify that the game works as expected.**
     Run the game by writing the following in the terminal:
-        python3.11 pong_4.py
+        python3.11 pong_6.py

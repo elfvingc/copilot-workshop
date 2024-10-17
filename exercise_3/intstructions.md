@@ -1,4 +1,4 @@
-# Exercise 4: Generate tests
+# Exercise 3: Generate tests
 
 ## Steps:
 

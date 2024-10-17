@@ -2,7 +2,6 @@ import random
 
 
 def calculate_mean(numbers):
-
     total = 0
     n = len(numbers)
 
@@ -36,4 +35,4 @@ if __name__ == "__main__":
     mean = calculate_mean(random_numbers)
     print(f"Mean: {mean}")
 
-    # Step 5: Find the standard deviation'
+    # Step 5: Find the standard deviation
