@@ -1,4 +1,4 @@
-# Exercise 4: Fix bugs in game
+# Exercise 6: Fix bugs in game
 
 ## Suggested workflow
 

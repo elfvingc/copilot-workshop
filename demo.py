@@ -33,8 +33,7 @@ if __name__ == "__main__":
         median = sorted_numbers[n // 2]
     print(f"Median: {median}")
     # Step 4: Find the mean
-    # mean = calculate_mean(numbers)
-    # print(f"Mean: {mean}")
+    mean = calculate_mean(random_numbers)
+    print(f"Mean: {mean}")
 
     # Step 5: Find the standard deviation'
-    std_dev = sum((x - median) ** 2 for x in sorted_numbers) / (n - 1)
