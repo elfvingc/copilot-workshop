@@ -1,4 +1,4 @@
-i  # Process a list of numbers and generate various statistics
+# Process a list of numbers and generate various statistics
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 sum_numbers = 0
 count = 0
