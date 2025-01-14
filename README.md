@@ -29,16 +29,18 @@ Before starting the workshop, please ensure you have the following:
     - [Create a user](https://codeium.com/account/register) (it's free).
 
 2. **Open Github Codespace**
-    - Create and open a codespace:
+    - Create and open a codespace (you must sign in to be able to see the option):
 
     ![](images/codespace_instr.png)
 
 3. **Install Codeium's VS Code Extension**
-    1. Install Codeium's VS Code [extension](https://codeium.com/vscode_tutorial?extensionName=vscode) and press "Quick Install" or paste the following in your browser: vscode:extension/codeium.codeium.
+    1. Install Codeium's VS Code extension in the created codespace:
+    ![](images/codeium_extension_install.png)
     2. You will need to authenticate the extension once the installation is complete:
         - VS Code will prompt you to open a link to Codeium's website. Click "Open".
         - Codeium's website will prompt you to open a link to VS Code. Click "Open".
         - Follow [Codeium's VS Code instructions](https://codeium.com/vscode_tutorial?extensionName=vscode) if you want a detailed guide or if you run in to problems.
+
 4. **Check that Codeium works**
 
     Check that Codium works by:
@@ -48,17 +50,21 @@ Before starting the workshop, please ensure you have the following:
 
     ![](images/codeium_1.png)
 
-    3. Put the cursor anywhere in the file and press "ctrl + shift + i" at the same time and check that this pops up:
+    3. Put the cursor anywhere in the file and press "ctrl + i" (for some it might be "ctrl + shift + i") at the same time and check that this pops up at the top of the screen:
 
     ![](images/codeium_2.png)
 
-    4. Check that you can get auto-complete suggestions by writing the following (wait after you have written "def "):
+    4. Check that you can get auto-complete suggestions by writing the following in a .js file (wait after you have written "function "):
 
     ![](images/codeium_3.png)
 
     Should give you some "ghost text" after a short period of time, something like this:
 
     ![](images/codeium_4.png)
+
+    5. Functions should get a small row above them with Codeium actions like this:
+
+    ![](images/codeium_5.png)
 
 ## Workshop Structure
 
