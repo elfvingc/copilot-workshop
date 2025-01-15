@@ -5,6 +5,8 @@ def is_even(number: int) -> bool:
     :param number: The number to check.
     :return: True if the number is even, False otherwise.
     """
+    if not isinstance(number, int):
+        raise TypeError("Input must be an integer.")
     return number % 2 == 0
 
 def factorial(n: int) -> int:
