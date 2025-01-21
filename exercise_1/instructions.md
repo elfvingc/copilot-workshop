@@ -14,7 +14,7 @@ The suggested workflow is described in detail below.
 
 1. **Open Codeium chat**
 2. **Track correct file**
-    - Make sure the correct file is marked as "script_1.py CURRENT"
+    - Make sure the correct file is marked as "script_1.js CURRENT"
 3. **Get copilot to explain the code**
     - Try to get copilot to explain the code for you.
     - Either use the chat or Explain (or try both):

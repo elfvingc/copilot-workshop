@@ -3,7 +3,7 @@
 ## Steps:
 
 1. **Generate tests.**
-    Above any function you should see the grey text "Codeium: Refactor ...".
+    Above any function in code_to_be_tested.py you should see the grey text "Codeium: Refactor ...".
     1. Choose any function in the file code_to_be_tested.py.
     2. Press "Refactor".
     3. Then press "Generate unit tests".

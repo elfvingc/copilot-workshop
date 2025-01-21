@@ -1,16 +1,21 @@
-# Exercise 6: Fix bugs in game
+# Exercise 6: Add more functionalities
+
+In this exercise, try to add more functionalities to the game of pong. You are free to add whatever you want in this exercise as long as you use copilot to do it. We encourage you to try out autocompletions, command and chat.
 
 ## Suggested workflow
 
-- Explain the bugs (one by one) and try to get copilot to fix them.
+1. Use chat to get ideas or use any of the provided ideas below to improve the game.
+2. Implement the code using copilot.
 
-The suggested workflow is described in detail below.
+## Steps:
 
-### Steps:
-
-1. **Explain the bug to copilot and try to get copilot to fix it.**
-    - Use the chat, or "Refactor" above a function and select "Check for bugs and null pointers", or mark a code block and open the Codium command (ctrl + i or ctrl + shift + i (depending on your keybindings))
-
-2. **Verify that it works  as expected.**
-    Run the file you chose with:
-        python3 <name-of-file>
+1. Choose functionality to add:
+   - Either:
+        1. Use the Codeium chat to get suggestions on improvements or how to make the game more fun.
+        2. Or use any of the following:
+            1. Add win condition.
+            2. Increase/decrease game difficulty.
+            3. Power-ups.
+2. Implement the code using autocompletions or command (ctrl + i, for some it might be ctrl + shift + i). (Use chat as a last resort if you get stuck).
+3. Try out the new functionality by running the game (run main.sh).
+4. If you get any errors, try fixing them with copilot.

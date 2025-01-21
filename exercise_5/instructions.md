@@ -1,21 +1,27 @@
-# Exercise 5: Add more functionalities
-
-You are free to do whatever you want in this exercise as long as you use copilot to do it. We encourage you to try out autocompletions, command and chat.
+# Exercise 5: Fix bugs
 
 ## Suggested workflow
 
-1. Use chat to get ideas or use any of the provided ideas below to improve the game.
-2. Implement the code using copilot.
+- Explain the bugs (one by one) and try to get copilot to fix them.
 
-## Steps:
+The suggested workflow is described in detail below.
 
-1. Choose functionality to add:
-   - Either:
-        1. Use the Codeium chat to get suggestions on improvements or how to make the game more fun.
-        2. Or use any of the following:
-            1. Add win condition.
-            2. Increase/decrease game difficulty.
-            3. Power-ups.
-2. Implement the code using autocompletions or command (ctrl + i, for some it might be ctrl + shift + i). (Use chat as a last resort if you get stuck).
-3. Try out the new functionality by running the game (run main.sh).
-4. If you get any errors, try fixing them with copilot.
+### Steps:
+
+1. **Run one of the buggy files**
+    - Run any file of your choice with:
+        python3 <name-of-file>
+    - Check the output of the script.
+
+2. **Explain the bug to copilot and try to get copilot to fix it.**
+    - Use any of the following options (or try them all to see if they give different outcomes):
+        - Explain the bug in the chat and make sure the correct file is marked as "CURRENT" or refer to it with "@"
+        - Use "Refactor" above a function and select "Check for bugs and null pointers"
+        - Mark a code block and open the Codium command (ctrl + i or ctrl + shift + i (depending on your keybindings)).
+        - Use "@terminal" and choose last command in the chat and explain the bug.
+
+3. **Verify that it works  as expected.**
+    Run the file you chose with:
+        python3 <name-of-file>
+
+4. **Repeat from 1 until you have solved all bugs in all buggy files**
